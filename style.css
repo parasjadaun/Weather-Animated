@@ -1,0 +1,193 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ 
+}
+
+body{
+ background-color:#FBF2C0;
+ color: #43281C;
+
+}
+
+.container{
+ min-height:70vh;
+ width:100%;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+.tempretur{
+  font-size: 4.5rem;
+}
+.location_time{
+    font-size: 2rem;
+}
+.condition{
+margin: 0.5rem;
+margin-left: 0.2rem;
+}
+nav{
+    height: 100px;
+    margin: 5rem;
+}
+.search_area{
+    padding: 1rem 0 1rem 2rem;
+    outline: none;
+    border-radius: 3rem;
+    border-bottom: #43281C;
+     border-top: #43281C;
+    font-size: 2rem;
+    background-color: #C5D86D;
+    color:  #FFEDDF;
+}
+nav form button{
+    margin-left: 2rem;
+   padding:1rem;
+    background-color: white;
+    margin-top: 1.1rem;
+   font-size: 1.1rem;
+    border-radius: 2rem;
+
+   cursor: pointer;
+}
+.reset{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#resetbtn{
+    height: 80px;
+    width: 200px;
+    background-color: #90A955;
+    font-size: 60px;
+    border-radius: 2rem;
+    cursor:pointer;
+    font-weight: 300;
+}
+/* ======== LARGE DESKTOP ======== */
+@media (min-width:1400px){
+
+.tempretur{
+ font-size:5rem;
+}
+
+.location_time{
+ font-size:2.2rem;
+}
+
+#resetbtn{
+ width:260px;
+ height:80px;
+ font-size:2.5rem;
+}
+
+}
+
+/* ======== LAPTOP ======== */
+@media (max-width:1399px){
+
+.tempretur{
+ font-size:4rem;
+}
+
+nav{
+ margin:3rem 0;
+}
+
+}
+
+/* ======== TABLET ======== */
+@media (max-width:1024px){
+
+.tempretur{
+ font-size:3.2rem;
+}
+
+.location_time{
+ font-size:1.6rem;
+}
+
+nav form{
+ flex-direction:column;
+}
+
+.search_area{
+ width:100%;
+ font-size:1.3rem;
+}
+
+nav form button{
+ width:60%;
+}
+
+#resetbtn{
+ width:200px;
+ height:65px;
+ font-size:2rem;
+}
+
+}
+
+/* ======== LARGE MOBILE ======== */
+@media (max-width:768px){
+
+.container{
+ justify-content:center;
+}
+
+.tempretur{
+ font-size:2.6rem;
+}
+
+.location_time{
+ font-size:1.3rem;
+}
+
+nav{
+ margin:2rem 0;
+}
+
+nav form button{
+ width:100%;
+}
+
+#resetbtn{
+ width:180px;
+ height:60px;
+ font-size:1.7rem;
+}
+
+}
+
+/* ======== SMALL MOBILE ======== */
+@media (max-width:480px){
+
+.tempretur{
+ font-size:2.2rem;
+}
+
+.location_time{
+ font-size:1.1rem;
+}
+
+.condition{
+ font-size:0.9rem;
+}
+
+.search_area{
+ font-size:1rem;
+ padding:0.6rem 1rem;
+}
+
+#resetbtn{
+ width:160px;
+ height:55px;
+ font-size:1.5rem;
+}
+
+}
